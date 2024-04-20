@@ -19,4 +19,6 @@ if st.button("Submit"):
    st.write("The largest number is ",out)
 
 if st.button("Clear"):
-  st.session_state.something =" "
+  a=0
+  b=0
+  c=0

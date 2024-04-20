@@ -19,7 +19,5 @@ if st.button("Submit"):
    st.write("The largest number is ",out)
 
 if st.button("Clear"):
-  a=0
-  b=0
-  c=0
-  st.session_state.somthing=" "
+  st.experimental_rerun()
+  st.session_state.something=" "

@@ -18,6 +18,3 @@ out=large(a,b,c)
 if st.button("Submit"):
    st.write("The largest number is ",out)
 
-if st.button("Clear"):
-  st.experimental_rerun()
-  st.session_state.something=" "

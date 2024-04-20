@@ -1,6 +1,6 @@
 import streamlit as st
 
-def addition(a,b)
+def addition(a,b):
   return(a+b)
 
 st.title("Little Calculator for addition")

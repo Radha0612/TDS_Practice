@@ -15,5 +15,5 @@ c=st.number_input("Enter the third Number:")
 
 out=large(a,b,c)
 
-if st.button("Submit):
+if st.button("Submit"):
    st.write("The largest number is ",out)

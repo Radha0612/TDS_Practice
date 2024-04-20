@@ -1,11 +1,11 @@
 import streamlit as st
 
 def large(a,b,c):
-  if (a > b) and (a > c):
+  if (a >= b) and (a >=c):
      return(a)
-  if (b>a) and (b>c) :
+  if (b>=a) and (b>=c) :
     return(b)
-  else:
+  if (c>=a) and (c>=b):
     return(c)
 
 a=st.number_input("Enter the first Number:")

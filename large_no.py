@@ -8,11 +8,12 @@ def large(a,b,c):
   if (c>=a) and (c>=b):
     return(c)
 
-st.write("LARGER OF THE 3 NUMBERS")
+st.title("LARGEST OF THE 3 NUMBERS")
 a=st.number_input("Enter the first Number:")
 b=st.number_input("Enter the second Number:")
 c=st.number_input("Enter the third Number:")
 
 out=large(a,b,c)
 
-st.write("The largest number is ",out)
+if st.button("Submit):
+   st.write("The largest number is ",out)
